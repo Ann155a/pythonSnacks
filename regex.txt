@@ -1,8 +1,8 @@
-quantificatore + significa maggiroe di 0. Per esempio `[0, 9]+` \
+quantificatore + significa maggiroe di 0. Per esempio `[0, 9]+` 
 `*` maggiore uguale a 0 occorrence. \
 `?` singifica 0 o 1 occorrenze. \
 `{m, n}` da m a n occorrenze \
-`{m, }` lameno m occorrenze \
+`{m, }` almeno m occorrenze \
 `{, v}` al piu' n occorrenze \
 `{n}` significa n occorrenze 
 \s spaziatura \
