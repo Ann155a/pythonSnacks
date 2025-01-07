@@ -1,0 +1,21 @@
+quantificatore + significa maggiroe di 0. Per esempio `[0, 9]+` \
+`*` maggiore uguale a 0 occorrence. \
+`?` singifica 0 o 1 occorrenze. \
+`{m, n}` da m a n occorrenze \
+`{m, }` lameno m occorrenze \
+`{, v}` al piu' n occorrenze \
+`{n}` significa n occorrenze 
+\s spaziatura \
+\S non e' uno spazio \
+\d singifica cifra \
+\D non cifra \
+\w carattere alfabetico \
+\W non carattere alfabetico
+Classi: \
+`.` Singifica qualunque cosa \
+se volessi selezionare qualsiasi cosa all'interno di una stringa `[]`, dentro ci deve strare uno o piu caratteri `.\[.+\], oppure .\[.*\]`
+Classe parentesi quadra `[]`: dentro racchiudo quello che voglio come caratteri. `[.]` il punto messo dentro vale come punto, non come carattere. \
+se inizia con il capuccio `[^]` = tutto cio' che non sta. Per esempio `[^X]` non caratteri di X. \
+`[+^]` se non sta all'inizio viene visto come capuccio non come implmento dell'insieme. \
+Se metto capuccio `^` e vado cosi vuol dire che deve iniziare con questo. se inizia ___ e finisce con il segno di `$` vuol dire che deve finire con quelli caratteri. \
+`|` vuol dier questo o quest altro
