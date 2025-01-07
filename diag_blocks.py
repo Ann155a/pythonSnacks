@@ -1,6 +1,6 @@
-# returns a square matrix with diagonal blocks.
-def block_diag(n):
+# returns a square matrix with diagonal blocks. k = size of blocks
+def block_k(n, k):
     arr = np.zeros((n, n))
-    for i in range(0, n-1):
-        arr[i:i+2, i:i+2] = 1
+    for i in range(0, n):
+        arr[i:i+k, i:i+k] = 1
     return arr
