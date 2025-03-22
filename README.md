@@ -1,2 +1,2 @@
-# pythonSnacks
-Collection of handy Python codes
+# Python exercises
+Collection of handy Python codes for data wrangling.
